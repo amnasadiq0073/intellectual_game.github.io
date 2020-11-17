@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div id="content">
+        <div id="level">Level:
+            <div id="levell">1</div>
+        </div>
+        <div id="innerContainer">
+            <div id="score">
+                <label for="Score">Score</label>
+                <div id="scoreInp">0</div>
+                <br>
+            </div>
+            <div id="cardPile"></div>
+            <div id="cardSlots"></div>
+            
+            <div id="successMessage">
+            <h2>You did it!</h2>
+            <button onclick="init()">Next Level!</button>
+            </div>
+        </div>
+        <div id="countdownTimer">
+            
+        </div>
+    </div>
+
+</body>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+    >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</html>
